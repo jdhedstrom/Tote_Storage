@@ -720,6 +720,41 @@
       "tags": [
         "Back assembly"
       ]
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.07945597709377238,
+      "y": 0.6910828025477708,
+      "uniqueID": "id-285",
+      "name": "Center post",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-287"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.20042949176807445,
+          "y": 0.4840764331210191,
+          "uniqueID": "id-289",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 1.5,
+              "currentEquation": "1.5"
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
