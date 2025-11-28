@@ -11,6 +11,24 @@
       "x": 0.98,
       "y": 0.5,
       "uniqueID": "id-2"
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.2763063707945598,
+      "y": 0.5145631067961165,
+      "uniqueID": "id-4",
+      "name": "Github Molecule",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-6"
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [],
