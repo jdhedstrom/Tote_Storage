@@ -52,7 +52,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 10,
+              "ioValue": 96,
               "currentEquation": "96"
             }
           ]
@@ -78,6 +78,80 @@
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.16678596993557623,
+          "y": 0.6407766990291263,
+          "uniqueID": "id-52",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 3.5,
+              "currentEquation": "3.5"
+            },
+            {
+              "name": "y length",
+              "ioValue": 1.5,
+              "currentEquation": "1.5"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.26678596993557624,
+          "y": 0.6407766990291263,
+          "uniqueID": "id-56",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 96,
+              "currentEquation": "96"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3667859699355762,
+          "y": 0.6407766990291263,
+          "uniqueID": "id-60",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 31,
+              "currentEquation": "31"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.4667859699355762,
+          "y": 0.6407766990291263,
+          "uniqueID": "id-66",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90,
+              "currentEquation": "90"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -95,6 +169,21 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-42",
           "ap2ID": "id-12"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-52",
+          "ap2ID": "id-56"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-56",
+          "ap2ID": "id-60"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-60",
+          "ap2ID": "id-66"
         }
       ],
       "fileTypeVersion": 1
