@@ -14,8 +14,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.08876163206871869,
-      "y": 0.3248407643312102,
+      "x": 0.15891195418754475,
+      "y": 0.1337579617834395,
       "uniqueID": "id-10",
       "name": "Front/Back_Assembly",
       "topLevel": false,
@@ -349,8 +349,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.08947745168217609,
-      "y": 0.624203821656051,
+      "x": 0.05511811023622047,
+      "y": 0.2611464968152866,
       "uniqueID": "id-189",
       "name": "Front/Back_Assembly",
       "topLevel": false,
@@ -598,23 +598,6 @@
               "ioValue": 0.75
             }
           ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.8203292770221904,
-          "y": 0.48726114649681534,
-          "uniqueID": "id-264",
-          "ioValues": [
-            {
-              "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
         }
       ],
       "allConnectors": [
@@ -659,9 +642,9 @@
           "ap2ID": "id-204"
         },
         {
-          "ap2Name": "xDist",
+          "ap2Name": "number or geometry",
           "ap1ID": "id-199",
-          "ap2ID": "id-264"
+          "ap2ID": "id-190"
         },
         {
           "ap2Name": "geometry",
@@ -687,17 +670,85 @@
           "ap2Name": "Shape 5",
           "ap1ID": "id-204",
           "ap2ID": "id-199"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-264",
-          "ap2ID": "id-190"
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Move",
+      "x": 0.14531138153185397,
+      "y": 0.34394904458598724,
+      "uniqueID": "id-270",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 31,
+          "currentEquation": "31"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.3471725125268432,
+      "y": 0.3598726114649682,
+      "uniqueID": "id-276",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.23765211166785968,
+      "y": 0.3726114649681529,
+      "uniqueID": "id-281",
+      "name": "Back assembly",
+      "tags": [
+        "Back assembly"
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-10",
+      "ap2ID": "id-276"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-189",
+      "ap2ID": "id-270"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-270",
+      "ap2ID": "id-281"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-276",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-281",
+      "ap2ID": "id-276"
+    }
+  ],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
