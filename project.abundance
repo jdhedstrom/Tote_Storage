@@ -52,19 +52,31 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 96,
+              "ioValue": 10,
               "currentEquation": "96"
             }
           ]
         },
         {
-          "atomType": "Tag",
-          "x": 0.368217609162491,
-          "y": 0.41747572815533984,
-          "uniqueID": "id-22",
-          "name": "8' ",
-          "tags": [
-            "8' "
+          "atomType": "Rotate",
+          "x": 0.3793843951324266,
+          "y": 0.20711974110032363,
+          "uniqueID": "id-42",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90,
+              "currentEquation": "90"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
           ]
         }
       ],
@@ -77,11 +89,11 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-18",
-          "ap2ID": "id-22"
+          "ap2ID": "id-42"
         },
         {
           "ap2Name": "number or geometry",
-          "ap1ID": "id-22",
+          "ap1ID": "id-42",
           "ap2ID": "id-12"
         }
       ],
