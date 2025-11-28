@@ -21,7 +21,8 @@
       "ioValues": [
         {
           "name": "8'_board",
-          "ioValue": 10
+          "ioValue": 96,
+          "currentEquation": "96"
         }
       ],
       "topLevel": false,
