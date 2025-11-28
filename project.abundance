@@ -18,6 +18,12 @@
       "y": 0.6990291262135923,
       "uniqueID": "id-10",
       "name": "8' 2x4",
+      "ioValues": [
+        {
+          "name": "Header/sill_length",
+          "ioValue": 10
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -52,8 +58,16 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 96,
-              "currentEquation": "96"
+              "ioValue": 1,
+              "currentEquation": "Header/sill_length"
+            },
+            {
+              "name": "Header",
+              "ioValue": 1
+            },
+            {
+              "name": "sill_length",
+              "ioValue": 1
             }
           ]
         },
@@ -105,8 +119,16 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 96,
-              "currentEquation": "96"
+              "ioValue": 1,
+              "currentEquation": "Header/sill_length"
+            },
+            {
+              "name": "Header",
+              "ioValue": 1
+            },
+            {
+              "name": "sill_length",
+              "ioValue": 1
             }
           ]
         },
@@ -145,13 +167,29 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "z-axis degrees",
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.5404438081603435,
+          "y": 0.3915857605177993,
+          "uniqueID": "id-72",
+          "ioValues": []
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.18122977346278316,
+          "uniqueID": "id-75",
+          "name": "Header/sill_length",
+          "type": "number"
         }
       ],
       "allConnectors": [
@@ -164,11 +202,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-18",
           "ap2ID": "id-42"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-42",
-          "ap2ID": "id-12"
         },
         {
           "ap2Name": "geometry",
