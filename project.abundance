@@ -17,10 +17,10 @@
       "x": 0.07802433786685756,
       "y": 0.6990291262135923,
       "uniqueID": "id-10",
-      "name": "8' 2x4",
+      "name": "Front/Back_Assembly",
       "ioValues": [
         {
-          "name": "Header/sill_length",
+          "name": "8'_board",
           "ioValue": 10
         }
       ],
@@ -59,7 +59,7 @@
             {
               "name": "height",
               "ioValue": 1,
-              "currentEquation": "Header/sill_length"
+              "currentEquation": "8'_board"
             },
             {
               "name": "Header",
@@ -67,6 +67,10 @@
             },
             {
               "name": "sill_length",
+              "ioValue": 1
+            },
+            {
+              "name": "_board",
               "ioValue": 1
             }
           ]
@@ -120,7 +124,7 @@
             {
               "name": "height",
               "ioValue": 1,
-              "currentEquation": "Header/sill_length"
+              "currentEquation": "8'_board"
             },
             {
               "name": "Header",
@@ -128,6 +132,10 @@
             },
             {
               "name": "sill_length",
+              "ioValue": 1
+            },
+            {
+              "name": "_board",
               "ioValue": 1
             }
           ]
@@ -140,17 +148,16 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 31,
-              "currentEquation": "31"
+              "ioValue": 0
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 97.5,
+              "currentEquation": "96+1.5"
             }
           ]
         },
@@ -181,8 +188,70 @@
           "x": 0.025384615384615384,
           "y": 0.18122977346278316,
           "uniqueID": "id-75",
-          "name": "Header/sill_length",
+          "name": "8'_board",
           "type": "number"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.1639226914817466,
+          "y": 0.8446601941747572,
+          "uniqueID": "id-82",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 3.5
+            },
+            {
+              "name": "y length",
+              "ioValue": 1.5
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.26392269148174663,
+          "y": 0.8446601941747572,
+          "uniqueID": "id-86",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 1,
+              "currentEquation": "8'_board"
+            },
+            {
+              "name": "Header",
+              "ioValue": 1
+            },
+            {
+              "name": "sill_length",
+              "ioValue": 1
+            },
+            {
+              "name": "_board",
+              "ioValue": 1
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3639226914817466,
+          "y": 0.8446601941747572,
+          "uniqueID": "id-95",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 1.5,
+              "currentEquation": "1.5"
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -210,6 +279,16 @@
           "ap2Name": "geometry",
           "ap1ID": "id-60",
           "ap2ID": "id-66"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-82",
+          "ap2ID": "id-86"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-86",
+          "ap2ID": "id-95"
         }
       ],
       "fileTypeVersion": 1
