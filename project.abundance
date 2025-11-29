@@ -874,8 +874,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 2.5,
-              "currentEquation": "2.5"
+              "ioValue": 12.5,
+              "currentEquation": "2.5+10"
             }
           ]
         }
