@@ -789,8 +789,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.08947745168217609,
-          "y": 0.5605095541401274,
+          "x": 0.07587687902648532,
+          "y": 0.5318471337579618,
           "uniqueID": "id-306",
           "ioValues": [
             {
@@ -807,7 +807,7 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.1894774516821761,
+          "x": 0.18468146027201146,
           "y": 0.5605095541401274,
           "uniqueID": "id-310",
           "ioValues": [
@@ -820,8 +820,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.2927702219040802,
-          "y": 0.5063694267515924,
+          "x": 0.29133858267716534,
+          "y": 0.4968152866242038,
           "uniqueID": "id-314",
           "ioValues": [
             {
@@ -842,24 +842,6 @@
           ]
         },
         {
-          "atomType": "Move",
-          "x": 0.36649964209019326,
-          "y": 0.5796178343949044,
-          "uniqueID": "id-320",
-          "ioValues": [
-            {
-              "name": "yDist",
-              "ioValue": 0.75,
-              "currentEquation": ".75"
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0,
-              "currentEquation": "0"
-            }
-          ]
-        },
-        {
           "atomType": "Assembly",
           "x": 0.7000715819613457,
           "y": 0.49363057324840764,
@@ -868,10 +850,26 @@
             {
               "name": "Shape 1",
               "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.39133858267716537,
+          "y": 0.4968152866242038,
+          "uniqueID": "id-330",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
             },
             {
-              "name": "Shape 2",
-              "ioValue": null
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
             }
           ]
         }
@@ -903,14 +901,9 @@
           "ap2ID": "id-314"
         },
         {
-          "ap2Name": "xDist",
+          "ap2Name": "geometry",
           "ap1ID": "id-314",
-          "ap2ID": "id-320"
-        },
-        {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-320",
-          "ap2ID": "id-326"
+          "ap2ID": "id-330"
         },
         {
           "ap2Name": "number or geometry",
